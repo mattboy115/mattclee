@@ -1,0 +1,200 @@
+#background {
+		height: 100%;
+		width: 100%;
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		background-image: url(../images/background.jpg);
+		z-index: -1;
+		background-size: cover;
+	}
+	header {
+		width: 102%;
+		height: 150px;
+		background-image: url(http://i813.photobucket.com/albums/zz56/mattboy115/headerbg.png);
+		margin-left: -20px;
+		margin-top: 20px;
+	}
+	#titleimg {
+		height: 160px;
+		margin-left: 30px;
+		margin-top: -20px;
+	}
+	#top {
+		width: 840px;
+		clear: both;
+		margin-bottom: 40px;
+	}
+	#left {
+		height: 700px;
+		width: 400px;
+		background: white;
+		position: relative;
+		float: left;
+		margin-right: 20px;
+	}
+	#right {
+		height: 800px;
+		width: 400px;
+		background: white;
+		position: relative;
+		float: left;
+		margin-left: 20px;
+	}
+	#everythingelse {
+		position: relative;
+		top: 40px;
+		margin: 0 auto;
+		background: rgba(255,255,255,0.5);
+		padding: 40px;
+		width: 840px;
+		height: 1200px;
+		border-radius: 2px;
+	}
+	#searchbar {
+		float: right;
+		margin-top: 45px;
+		margin-right: 40px;
+	}
+	#searchbutton {
+		height: 40px;
+		width: 100px;
+		border: none;
+		background-color: red;
+		color: white;
+		-moz-box-shadow:    inset 0 0 10px #000000;
+   		-webkit-box-shadow: inset 0 0 10px #000000;
+   		box-shadow:         inset 0 0 10px #000000;
+   		font-family: arial;
+   		font-size: 25px;
+   		font-weight: bolder;
+   		letter-spacing: -1px;
+	}
+	input {
+		height: 40px;
+		width: 250px;
+		font-family: arial;
+		font-size: 25px;
+		-moz-box-shadow:    inset 0 0 10px #000000;
+   		-webkit-box-shadow: inset 0 0 10px #000000;
+   		box-shadow:         inset 0 0 10px #000000;
+   		border-radius: 0px;
+   		border: none;
+	}
+	#socialbar {
+		float: right;
+		list-style-type: none;
+		display: block;
+		margin-right: 40px;
+		background: white;
+		border: 5px solid black;
+		border-radius: 12px;
+		padding: 15px;
+		position: relative;
+		position: fixed;
+		margin-top: 30px;
+	}
+	#social {
+		height: 50px;
+		margin-top: 10px;
+	}
+	#navbar {
+		position: relative;
+		clear: both;
+		float: right;
+		color: white;
+		font-family: 'Merriweather Sans', sans-serif;
+		font-size: 32px;
+		margin-right: 35px;
+		margin-top: -73px;
+		text-shadow: 4px 4px 7px #000000;
+
+	}
+	#navlist li {
+		list-style: none;
+		display: inline;
+		clear: both;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	#navlist li a {
+		text-decoration: none;
+		color: white;
+	}
+	#cdrop {
+		float: left;
+		position: relative;
+		position: absolute;
+		background: gray;
+		border: black solid 3px;
+		width: 350px;
+		z-index: 1;
+		visibility: hidden;
+	}
+	#comics:hover #cdrop {
+		visibility: visible;
+	}
+	#cdrop li {
+		font-family: 'Source Sans Pro', sans-serif;
+		margin-left: -20px;
+		display: block;
+		text-align: left;
+		text-shadow: none;
+		line-height: 60px;
+		letter-spacing: -2px;
+	}
+	#cdrop li:hover {
+		background-color: #AEAEAE;
+	}
+	#vdrop {
+		float: left;
+		position: relative;
+		position: absolute;
+		background: gray;
+		border: black solid 3px;
+		margin-left: 185px;
+		width: 280px;
+		z-index: 1;
+		visibility: hidden;
+	}
+	#videos:hover #vdrop {
+		visibility: visible;
+	}
+	#vdrop li {
+		font-family: 'Source Sans Pro', sans-serif;
+		margin-left: -20px;
+		display: block;
+		text-align: left;
+		text-shadow: none;
+		line-height: 60px;
+		letter-spacing: -2px;
+	}
+	#vdrop li:hover {
+		background-color: #AEAEAE;
+	}
+	#bdrop {
+		position: relative;
+		position: absolute;
+		background: gray;
+		border: black solid 3px;
+		float: left;
+		margin-left: 365px;
+		width: 260px;
+		z-index: 1;
+		visibility: hidden;
+	}
+	#blogs:hover #bdrop {
+		visibility: visible;
+	}
+	#bdrop li {
+		font-family: 'Source Sans Pro', sans-serif;
+		margin-left: -20px;
+		display: block;
+		text-align: left;
+		text-shadow: none;
+		line-height: 60px;
+		letter-spacing: -2px;
+	}
+	#bdrop li:hover {
+		background-color: #AEAEAE;
+	}
